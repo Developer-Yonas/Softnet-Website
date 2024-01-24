@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { MenuItems } from './MenuItems';
 import { Link } from 'react-router-dom';
 import Contac from './Contac';
+import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,15 +43,18 @@ const Navbar = () => {
     };
   }, []);
 
+
+  
+
   return (
     <nav
-      className={`bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 ${
+      className={`bg-violet-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 ${
         isScrolled ? 'fixed top-0 w-full z-10' : ''
       }`}
     >
       <Contac />
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-2 p-4">
-        <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link to="/" className="flex  items-center space-x-3 rtl:space-x-reverse">
           <img src='/images/soft.png' className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </Link>
@@ -60,6 +65,7 @@ const Navbar = () => {
           aria-controls="navbar-dropdown"
           aria-expanded={isMenuOpen ? 'true' : 'false'}
           onClick={() => toggleMenu()}
+          
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -85,40 +91,45 @@ const Navbar = () => {
           } w-full md:block md:w-auto`}
           id="navbar-dropdown"
         >
-          <ul className="flex flex-col font-medium items-center p-3 md:p-0 mt-2 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            {MenuItems.map((item, index) => (
-              <li key={index}>
-                {item.dropdownItems ? (
-                  <button
-                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-                    onClick={() => handleClick(index)}
-                    aria-current={item.title === "Home" ? "page" : null}
-                  >
-                    {item.title}
-                  </button>
-                ) : (
-                  <a
-                    href={item.url}
-                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-                    aria-current={item.title === "Home" ? "page" : null}
-                  >
-                    {item.title}
-                  </a>
-                )}
+          <ul className="flex  flex-col font-medium items-center p-3 md:p-0 mt-2 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-violet-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          {MenuItems.map((item, index) => (
+  <li key={index}>
+    {item.dropdownItems ? (
+      <button
+        className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+        onClick={() => handleClick(index)}
+        aria-current={item.title === "Home" ? "page" : null}
+      >
+        {item.title}
+      </button>
+    ) : (
+      <NavLink
+        to={item.url}
+        className={`block py-2 px-3 bg-violet-50 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ${
+          window.location.pathname === item.url ? 'active:text-blue-500' : ''
+        }`}
+        activeClassName="active:text-blue-500"
+        aria-current={item.title === 'Home' ? 'page' : null}
+      >
+        {item.title}
+      </NavLink>
+    )}
 
 
 {item.dropdownItems && (
-        <div
-          onMouseEnter={() => handleMouseEnter(index + 1)}
-          onMouseLeave={handleMouseLeave}
-          className="relative"
-        >
+       <div className="relative bg-violet-50"
+       onMouseEnter={() => handleMouseEnter(index + 1)}
+       onMouseLeave={() => handleMouseLeave(index + 1)} // Adjust the delay as needed
+       
+     >
           <button
             id={`dropdownNavbarLink${index}`}
             data-dropdown-toggle={`dropdownNavbar${index}`}
-            className="flex items-center mt-0 pt-0 w-full font-medium py-3 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            className="flex  items-center mt-0 pt-0 w-full font-medium py-3 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
             aria-expanded={dropdownVisible === index + 1 ? "true" : "false"}
             aria-controls={`dropdownNavbar${index + 1}`}
+             onMouseEnter={() => handleMouseEnter(index + 1)}
+            // onMouseLeave={() => handleMouseLeave(index + 1)}
           >
             {item.name}
             <svg
@@ -136,22 +147,31 @@ const Navbar = () => {
       )}
       {item.dropdownItems && (
         <div
+        onMouseEnter={() => handleMouseEnter(index + 1)}
+        onMouseLeave={() => handleMouseLeave(index + 1)}
           id={`dropdownNavbar${index + 1}`}
           className={`${
             dropdownVisible === index + 1 ? 'block' : 'hidden'
-          } absolute mt-2 -ml-4 md:ml-0 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+          } absolute mt-0 -ml-4 md:ml-0 z-10 font-normal bg-violet-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
         >
                     <ul className="py-3 text-sm text-gray-700 dark:text-gray-400">
-                      {item.dropdownItems.map((subItem, subIndex) => (
-                        <li key={subIndex}>
-                          <a
-                            href={subItem.url}
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
-                            {subItem.title}
-                          </a>
-                        </li>
-                      ))}
+                    {item.dropdownItems.map((subItem, subIndex) => (
+  <li key={subIndex}>
+    <NavLink
+  to={subItem.url}
+  className={`block px-4 py-2 hover:bg-white dark:hover:bg-gray-600 hover:text-blue-500 ${
+    window.location.pathname === subItem.url ? 'text-blue-500' : 'text-gray-700 dark:text-gray-400'
+  }`}
+  activeClassName="active:text-blue-500"
+  exact
+>
+  {subItem.title}
+</NavLink>
+
+  </li>
+))}
+
+
                     </ul>
                   </div>
                 )}

@@ -20,7 +20,7 @@ const Contac = () => {
   }, []);
 
   return (
-    <div className={`contact-infoo flex cursor-pointer mt-0 w-full justify-between items-center px-4 bg-violet-50 ${isTop ? '' : 'hidden'}`}>
+    <div className={`contact-infoo flex cursor-pointer mt-0 w-full justify-between items-center px-4 bg-white ${isTop ? '' : 'hidden'}`}>
       <p className="flex mt-3 mb-4 hover:text-blue-700 text-l text-violet-800 text-l"><FaPhone /> : +251-116-72-4546</p>
       <p className="flex mt-3 mb-4 hover:text-blue-700 text-l text-violet-800 text-l"><FaMapMarkerAlt />: Bole Medaniyalm Morning Star Mall, 3rd floor Office number 316 </p>
       <div className="social-links flex space-x-4">
