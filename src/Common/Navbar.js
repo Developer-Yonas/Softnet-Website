@@ -3,12 +3,14 @@ import { MenuItems } from './MenuItems';
 import { Link } from 'react-router-dom';
 import Contac from './Contac';
 import { NavLink } from 'react-router-dom';
-
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [dropdownVisible, setDropdownVisible] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -20,6 +22,7 @@ const Navbar = () => {
 
   const handleClick = (index) => {
     toggleDropdown(index);
+    setDropdownVisible(null);
   };
 
   const handleMouseEnter = (index) => {
@@ -94,26 +97,34 @@ const Navbar = () => {
           <ul className="flex  flex-col font-medium items-center p-3 md:p-0 mt-2 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-violet-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           {MenuItems.map((item, index) => (
   <li key={index}>
-    {item.dropdownItems ? (
-      <button
-        className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-        onClick={() => handleClick(index)}
-        aria-current={item.title === "Home" ? "page" : null}
-      >
-        {item.title}
-      </button>
-    ) : (
-      <NavLink
-        to={item.url}
-        className={`block py-2 px-3 bg-violet-50 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ${
-          window.location.pathname === item.url ? 'active:text-blue-500' : ''
-        }`}
-        activeClassName="active:text-blue-500"
-        aria-current={item.title === 'Home' ? 'page' : null}
-      >
-        {item.title}
-      </NavLink>
-    )}
+   {item.dropdownItems ? (
+  <button
+    className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ${
+      dropdownVisible === index + 1 ? 'active' : ''
+    }`}
+    onClick={() => {
+      handleClick(index);
+      setDropdownVisible(null); // Close the dropdown
+    }}
+    aria-current={item.title === 'Home' ? 'page' : null}
+  >
+    {item.title}
+  </button>
+) : (
+  <NavLink
+  to={item.url}
+  className={`block py-2 px-3 bg-violet-50 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ${
+    location.pathname === item.url ? 'text-blue-500 bg-violet-50' : ''
+  }`}
+  activeClassName="active:text-blue-500"
+  exact
+  aria-current={item.title === 'Home' ? 'page' : null}
+>
+  {item.title}
+</NavLink>
+
+)}
+
 
 
 {item.dropdownItems && (
