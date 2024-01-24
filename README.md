@@ -10,7 +10,7 @@ Without wasting your time, let's see what react js actually is...
 - It is Used to build single-page applications.
 - Also, it allows us to create reusable UI components.
 
-If you want to use codesandbox with ready made files, then go [here1](https://codesandbox.io/s/github/tech2etc/React-Trippy-Tour-Website-Template).
+If you want to use codesandbox with ready made files, then go
 
 # Setup
 
@@ -19,7 +19,3 @@ If you want to use codesandbox with ready made files, then go [here1](https://co
 3. Drag and drop this project inside VS code.
 4. Open a terminal & run this command.
    run `npm i && npm start`
-
-Get the full source code from [here1](https://www.buymeacoffee.com/tech2etc/e/92489).
-
-Get the full source code from [here2](https://ko-fi.com/s/7d1fc65e68).
