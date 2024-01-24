@@ -107,13 +107,11 @@ const Navbar = () => {
                 )}
 
 
-
-
-
 {item.dropdownItems && (
         <div
           onMouseEnter={() => handleMouseEnter(index + 1)}
           onMouseLeave={handleMouseLeave}
+          className="relative"
         >
           <button
             id={`dropdownNavbarLink${index}`}
@@ -133,6 +131,7 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 9l7 7 7-7" />
             </svg>
           </button>
+
         </div>
       )}
       {item.dropdownItems && (
