@@ -58,7 +58,7 @@ const Navbar = () => {
       <Contac />
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-2 p-4">
         <Link to="/" className="flex  items-center space-x-3 rtl:space-x-reverse">
-          <img src='/images/soft.png' className="h-8" alt="Flowbite Logo" />
+          <img src='/images/soft.png' className="h-8" alt="Softnet Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </Link>
         <button
