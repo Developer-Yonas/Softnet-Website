@@ -57,7 +57,7 @@ function Hero() {
     <div>
       <Carousel {...carouselConfig}>
         {carouselItems.map((item, index) => (
-          <div key={index} style={{ position: "relative", overflow: "hidden" }}>
+          <div key={index} style={{ position: "relative", overflow: "hidden" }} >
             <div style={{ fontSize:35, position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "rgba(0, 0, 0, 0.05)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", padding: "20px", color: "black" }}>
              <div style={{position: "absolute",  top:250, left:70}}><p>{item.text}</p>
               <a href={item.portfolioLink} style={{ color: "#333", textDecoration: "none", marginTop: "10px", marginRight:"20px" }}>Portfolio</a>
