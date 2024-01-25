@@ -4,7 +4,7 @@ import React from "react";
 function Home() {
   return (
     <>
-     <Hero/><br/><br/><br/><br/><br/>
+     <Hero/><br/>
      <About/>
     </>
   );

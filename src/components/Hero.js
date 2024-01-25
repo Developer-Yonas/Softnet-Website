@@ -59,7 +59,7 @@ function Hero() {
       {carouselItems.map((item, index) => (
         <div key={index} style={{ position: "relative", overflow: "hidden", height: "600px", marginBottom: "20px" }}>
           <img src={item.imageSrc} alt={item.alt}  className="w-full h-full object-center object-contain" />
-          <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 10, background: "rgba(0, 0, 0, 0.05)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", padding: "20px", color: "darkblue" }}>
+          <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 10, background: "rgba(0, 0, 0, 0.03)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", padding: "20px", color: "darkblue" }}>
           <div className="relative left-10  sm:left-20 top-40">
   <p>{item.text}</p>
   <a 
