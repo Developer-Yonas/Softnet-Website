@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -8,7 +9,7 @@ export const Footer = () => {
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
+              <a href="" class="flex items-center">
                   <img src='/images/soft.png' class="h-8 me-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
               </a>
@@ -38,14 +39,14 @@ export const Footer = () => {
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Privacy Policy</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                      </li>
-                  </ul>
+                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+    <li className="mb-4">
+        <Link to="/common/Privacy" className="hover:underline">Privacy Policy</Link>
+    </li>
+    <li>
+        <Link to="/common/Terms" className="hover:underline">Terms &amp; Conditions</Link>
+    </li>
+    </ul>
               </div>
           </div>
       </div>

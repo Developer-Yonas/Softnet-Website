@@ -13,6 +13,8 @@ import Infrastructure from "./routes/services/Infrastructure";
 import Softwaredevelopment from "./routes/services/Softwaredevelopment";
 import ITO from "./routes/services/ITO";
 import Portfolio from "./routes/Portfolio";
+import Privacy from "./Common/Privacy";
+import Terms from "./Common/Terms";
 
 
 
@@ -31,7 +33,8 @@ export default function App() {
         <Route path="/services/ITO" element={<ITO/>}/>
         <Route path="/services/service" element={<Service/>}/>
         <Route path="/portfolio" element={<Portfolio />} />
-
+        <Route path="/common/Privacy" element={<Privacy />} />
+        <Route path="/common/Terms" element={<Terms />} />
       </Routes>
       <Footer/>
     </div>
