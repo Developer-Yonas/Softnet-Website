@@ -8,22 +8,40 @@ function Hero() {
     {
       imageSrc: "/images/softt.png",
       alt: "Slide 1",
-      text: "Software Infrastructure",
-      portfolioLink: "/portfolio",
-      contactLink: "/contact",
-    },
-    {
-      imageSrc: "/images/infra.jpg",
-      alt: "Slide 2",
-      text: "Software Development",
+      text: (
+        <>
+          Software Development  <br />
+          Solving Complex Problems <br/>
+          Effortlessly
+          
+       </>
+      ),
       portfolioLink: "/portfolio",
       contactLink: "/contact",
     },
     {
       imageSrc: "/images/in.jpg",
+      alt: "Slide 2",
+      text: (
+        <>
+          Software Infrastructure  <br />
+          | It Outsourcing <br/>
+          
+       </>
+      ),
+      portfolioLink: "/portfolio",
+      contactLink: "/contact",
+    },
+    {
+      imageSrc: "/images/tr.jpg",
       alt: "Slide 3",
-      text: "Unlock Your Potential With \
-    Softnet's Technology Training Programs",
+      text:(
+        <>
+          Unlock Your Potential  <br />
+          With Softnet's Technology <br/>
+          Training Programs
+       </>
+      ),
       portfolioLink: "/portfolio",
       contactLink: "/contact",
     }
@@ -66,8 +84,8 @@ function Hero() {
         
           <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 md:h-full   object-center object-contain" />
           <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.04)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", paddingBottom: "100px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
-          <div className="relative left-10  sm:left-15 top-44  ">
-  <p className="mb-5 text-violet-900 md:text-5xl sm:text-xl pl-0 justify-between">{item.text}</p>
+          <div className="relative left-10  sm:left-20 top-44  ">
+  <p className="mb-5 text-violet-900 md:text-4xl sm:text-xl pl-0 justify-between   ">{item.text}</p>
   <a 
     href={item.portfolioLink}
     className="button-style hover:bg-blue-700 hover:border-blue-700 text-lg sm:text-lg hover:text-white"
