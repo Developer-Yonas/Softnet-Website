@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const TechT = () => {
+const Infrastructure = () => {
   const sliderSettings = {
     dots: true,
     autoplay: true,
@@ -47,7 +47,7 @@ const TechT = () => {
     <div className="max-w-7xl mx-auto p-6">
       {/* Header Section */}
       <header className="text-center mb-10">
-        <h1 className="text-4xl font-semibold text-violet-900">Technology Training </h1>
+        <h1 className="text-4xl font-semibold text-violet-900">Infrastructure </h1>
         <p className="text-gray-600 mt-2">Learn the latest technologies with our expert instructors.</p>
       </header>
 
@@ -90,4 +90,4 @@ const TechT = () => {
   );
 }
 
-export default TechT;
+export default Infrastructure;

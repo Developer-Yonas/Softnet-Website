@@ -114,7 +114,7 @@ const Navbar = () => {
   <NavLink
   to={item.url}
   className={`block py-2 px-3 bg-violet-50 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ${
-    location.pathname === item.url ? 'text-blue-500 bg-violet-50' : ''
+    location.pathname === item.url ? 'text-blue-500 bg-blue-50' : ''
   }`}
   activeClassName="active:text-blue-500"
   exact
@@ -146,7 +146,7 @@ const Navbar = () => {
             <svg
               className="w-4 h-4"
               fill="none"
-              stroke="currentColor"
+              stroke="blue"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -156,36 +156,35 @@ const Navbar = () => {
 
         </div>
       )}
-      {item.dropdownItems && (
-        <div
-        onMouseEnter={() => handleMouseEnter(index + 1)}
-        onMouseLeave={() => handleMouseLeave(index + 1)}
-          id={`dropdownNavbar${index + 1}`}
-          className={`${
-            dropdownVisible === index + 1 ? 'block' : 'hidden'
-          } absolute mt-0 -ml-4 md:ml-0 z-10 font-normal bg-violet-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
-        >
-                    <ul className="py-3 text-sm text-gray-700 dark:text-gray-400">
-                    {item.dropdownItems.map((subItem, subIndex) => (
-  <li key={subIndex}>
-    <NavLink
-  to={subItem.url}
-  className={`block px-4 py-2 hover:bg-white dark:hover:bg-gray-600 hover:text-blue-500 ${
-    window.location.pathname === subItem.url ? 'text-blue-500' : 'text-gray-700 dark:text-gray-400'
-  }`}
-  activeClassName="active:text-blue-500"
-  exact
->
-  {subItem.title}
-</NavLink>
+    {item.dropdownItems && (
+  <div
+    onMouseEnter={() => handleMouseEnter(index + 1)}
+    onMouseLeave={() => handleMouseLeave(index + 1)}
+    id={`dropdownNavbar${index + 1}`}
+    className={`${
+      dropdownVisible === index + 1 ? 'block' : 'hidden'
+    } absolute mt-0 -ml-4 md:ml-0 z-10 font-normal bg-violet-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+  >
+    <ul className="py-3 text-l text-gray-700 dark:text-gray-400">
+      {item.dropdownItems.map((subItem, subIndex) => (
+        <li key={subIndex}>
+          <NavLink
+            to={subItem.url}
+            className={`flex items-center px-4 py-2 hover:bg-white dark:hover:bg-gray-600 hover:text-blue-500 ${
+              window.location.pathname === subItem.url ? 'text-blue-500 bg-white' : 'text-gray-700 dark:text-gray-400'
+            }`}
+            activeClassName="active:text-blue-500"
+            exact
+          >
+            {subItem.icon && <span className="mr-2">{subItem.icon}</span>}
+            {subItem.title}
+          </NavLink>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
 
-  </li>
-))}
-
-
-                    </ul>
-                  </div>
-                )}
               </li>
             ))}
           </ul>

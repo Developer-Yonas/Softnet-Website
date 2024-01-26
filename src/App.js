@@ -8,8 +8,12 @@ import Contact from "./routes/Contact";
 import { MenuItems } from "./Common/MenuItems";
 import { Footer } from "./Common/Footer";
 import Service from "./routes/Service";
-import TechT from "./routes/services/TechT";
+import TechnologyTraining from "./routes/services/TechnologyTraining";
+import Infrastructure from "./routes/services/Infrastructure";
+import Softwaredevelopment from "./routes/services/Softwaredevelopment";
+import ITO from "./routes/services/ITO";
 import Portfolio from "./routes/Portfolio";
+
 
 
 export default function App() {
@@ -21,7 +25,10 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services/TechT" element={<TechT/>}/>
+        <Route path="/services/TechnologyTraining" element={<TechnologyTraining/>}/>
+        <Route path="/services/Infrastructure" element={<Infrastructure/>}/>
+        <Route path="/services/Softwaredevelopment" element={<Softwaredevelopment/>}/>
+        <Route path="/services/ITO" element={<ITO/>}/>
         <Route path="/services/service" element={<Service/>}/>
         <Route path="/portfolio" element={<Portfolio />} />
 

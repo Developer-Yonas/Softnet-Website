@@ -11,11 +11,11 @@ const Service = () => {
       <h2 className="text-4xl text-violet-900 font-semibold mb-10">Our Services</h2>
       <div className="flex flex-wrap -mx-4 cursor-pointer">
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
-        <Link to="/services/TechT">
+        <Link to="/services/TechnologyTraining">
             <div className="bg-white p-6 rounded border hover:bg-gray-300 transition duration-300">
               <div className="flex items-center justify-between">
-                <h3 className="text-2xl text-violet-800 font-semibold">
-                  <IoMdSchool className="mr-3 text-blue-500" />
+                <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
+                  <IoMdSchool className="mr-3 text-4xl text-blue-500" />
                   Technology Trainings
                 </h3>
                 <IoIosArrowForward className="text-blue-500 text-3xl" />
@@ -28,11 +28,11 @@ const Service = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
-        <Link to="/technology-training">
+        <Link to="/services/Infrastructure">
           <div className="bg-white p-6 rounded border hover:bg-gray-300 transition duration-300">
           <div className="flex items-center justify-between">
           <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
-              <FiServer className="mr-3 text-blue-500" />
+              <FiServer className="mr-3 text-4xl text-blue-500" />
               Infrastructure Supply and Deployment
             </h3>
             <IoIosArrowForward className="text-blue-500 text-3xl" />
@@ -43,11 +43,11 @@ const Service = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
-        <Link to="/technology-training">
+        <Link to="/services/Softwaredevelopment">
           <div className="bg-white p-6 rounded border hover:bg-gray-300 transition duration-300">
           <div className="flex items-center justify-between">
           <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
-              <AiOutlineCode className="mr-3 text-blue-500" />
+              <AiOutlineCode className="mr-3 text-4xl text-blue-500" />
               Software Development
             </h3>
             <IoIosArrowForward className="text-blue-500 text-3xl" />
@@ -59,11 +59,11 @@ const Service = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
-        <Link to="/technology-training">
+        <Link to="/services/ITO">
           <div className="bg-white p-6 rounded border hover:bg-gray-300 transition duration-300">
           <div className="flex items-center justify-between">
           <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
-              <FaRegBuilding className="mr-3 text-blue-500"/>
+              <FaRegBuilding className="mr-3 text-4xl text-blue-500"/>
               Information Technology Outsourcing (ITO)
             </h3>
             <IoIosArrowForward className="text-blue-500 text-3xl" />
