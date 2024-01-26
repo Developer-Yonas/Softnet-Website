@@ -7,8 +7,8 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import { MenuItems } from "./Common/MenuItems";
 import { Footer } from "./Common/Footer";
-import Service2 from "./routes/services/Service2";
-import Service from "./routes/services/Service";
+import Service from "./routes/Service";
+import TechT from "./routes/services/TechT";
 import Portfolio from "./routes/Portfolio";
 
 
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services/service2" element={<Service2/>}/>
+        <Route path="/services/TechT" element={<TechT/>}/>
         <Route path="/services/service" element={<Service/>}/>
         <Route path="/portfolio" element={<Portfolio />} />
 

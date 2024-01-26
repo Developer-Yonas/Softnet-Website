@@ -1,11 +1,11 @@
 import Hero from "../components/Hero";
-import About from "../routes/About";
 import React from "react";
+import Service from "./Service";
 function Home() {
   return (
     <>
      <Hero/><br/>
-     <About/>
+     <Service/>
     </>
   );
 }

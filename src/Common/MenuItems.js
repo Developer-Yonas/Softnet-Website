@@ -8,15 +8,15 @@ export const  MenuItems = [
     name: 'Services',
     cName: 'nav-links',
     dropdownItems: [
-      { title: 'Service 1', url: '/services/service', cName: 'nav-links' },
-      { title: 'Service 2', url: '/services/service2', cName: 'nav-links' },
+      // { title: 'Service 1', url: '/services/service', cName: 'nav-links' },
+      { title: 'Technology Training', url: '/services/TechT', cName: 'nav-links' },
       { title: 'Service 3', url: '/services/service3', cName: 'nav-links' },
     ],
     render: () => (
       <ul className="py-3 text-sm text-gray-700 dark:text-gray-400">
         {[
           { title: 'Service 1', url: '/services/service' },
-          { title: 'Service 2', url: '/services/service2' },
+          { title: 'Service 2', url: '/services/TechT' },
           { title: 'Service 3', url: '/services/service3' },
           
         ].map((subItem, subIndex) => (
