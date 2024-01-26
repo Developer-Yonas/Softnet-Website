@@ -57,10 +57,10 @@ function Hero() {
     <div>
     <Carousel {...carouselConfig}>
       {carouselItems.map((item, index) => (
-        <div key={index} style={{ position: "relative", overflow: "hidden", height: "520px", marginBottom: "0px", marginTop:"0px", paddingBottom:"35px" }}>
-          <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 h-dvh   object-center object-contain" />
+        <div key={index} style={{ position: "relative", overflow: "hidden", height: "30rem", marginBottom: "0px", marginTop:"0px", paddingBottom:"35px" }}>
+          <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 h-96   object-center object-contain" />
           <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 10, background: "rgba(0, 0, 0, 0.03)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", padding: "20px", color: "darkblue" }}>
-          <div className="relative left-0  sm:left-5 top-36">
+          <div className="relative left-0  sm:left-5 top-36  ">
   <p className="mb-30 text-violet-900 md:text-5xl sm:text-xl pl-0">{item.text}</p>
   <a 
     href={item.portfolioLink}
