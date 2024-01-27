@@ -12,7 +12,7 @@ const Service = () => {
       <div className="flex flex-wrap -mx-4 cursor-pointer">
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
           <Link to="/services/TechnologyTraining">
-            <div className="bg-white p-6 rounded border hover:bg-gray-300 transition duration-300">
+            <div className="bg-white p-6 rounded border hover:bg-gray-100 transition duration-300">
               <div className="flex items-center justify-between">
                 <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
                   <IoMdSchool className="mr-3 text-4xl text-blue-500" />

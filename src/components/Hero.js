@@ -78,12 +78,21 @@ function Hero() {
   
   return (
     <div>
+      <style jsx>{`
+  .react-multiple-carousel__arrow {
+    color: rgba(0, 0, 0, 0.9);
+    background-color:rgba(0, 2, 5, 0.1);
+  }
+  .react-multiple-carousel__arrow:hover {
+    background-color:rgba(0, 2, 5, 0.5);
+  }
+`}</style>
     <Carousel {...carouselConfig}>
       {carouselItems.map((item, index) => (
         <div key={index} style={{ position: "relative", overflow: "hidden", height: "36rem", marginBottom: "0px", marginTop:"0px", paddingBottom:"0px"  }}>
         
           <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 md:h-full sm:h-96   object-center object-contain" />
-          <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.04)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", paddingBottom: "100px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
+          <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.02)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", paddingBottom: "100px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
           <div className="relative left-10  sm:left-20 top-44  ">
   <p className="mb-5 text-violet-900 text-base md:text-4xl sm:text-4xl pl-0">{item.text}</p>  
   <a 
