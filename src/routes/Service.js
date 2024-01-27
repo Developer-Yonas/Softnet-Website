@@ -35,7 +35,7 @@ const Service = () => {
                   <FiServer className="mr-3 text-4xl text-blue-500" />
                   Infrastructure Supply and Deployment
                 </h3>
-                <IoIosArrowForward className="text-blue-500 text-3xl" />
+                <IoIosArrowForward className="text-blue-500 text-5xl" />
               </div>
               <p className="text-gray-700 mt-5 text-lg hover:text-blue-500">End to end service guaranteeing seamless integration and optimal performance of your technology Infrastructure</p>
             </div>
@@ -66,7 +66,7 @@ const Service = () => {
                   <FaRegBuilding className="mr-3 text-4xl text-blue-500" />
                   Information Technology Outsourcing (ITO)
                 </h3>
-                <IoIosArrowForward className="text-blue-500 text-3xl" />
+                <IoIosArrowForward className="text-blue-500 text-5xl" />
               </div>
               <p className="text-gray-700 mt-5 text-lg hover:text-blue-500">Softnet, your ultimate partner for outsourced services that redefine excellence. Dive into a realm where professionalism</p>
             </div>
