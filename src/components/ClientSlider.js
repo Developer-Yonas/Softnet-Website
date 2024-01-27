@@ -8,7 +8,7 @@ const ClientSlider = () => {
     "/images/softt.png",
     "/images/soft.png",
     "/images/tr.jpg",
-    "/images/client3.png",
+    "/images/cam.png",
     "/images/client3.png",
     // Add more client logos as needed
   ];
@@ -43,7 +43,7 @@ const ClientSlider = () => {
           key={index}
           src={logo}
           alt={`Client Logo ${index + 1}`}
-          className="mx-auto"
+          className="mx-2.5 pr-5"
           // Add additional styling as needed
         />
       ))}
