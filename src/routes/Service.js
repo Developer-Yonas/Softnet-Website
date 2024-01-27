@@ -27,15 +27,15 @@ const Service = () => {
           </Link>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
+        <div className="w-screen md:w-1/2 lg:w-1/2 px-4 mb-4">
           <Link to="/services/Infrastructure">
             <div className="bg-white p-6 rounded border hover:bg-gray-50 transition duration-300">
               <div className="flex items-center justify-between">
                 <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
                   <FiServer className="mr-3 text-4xl text-blue-500" />
-                  Infrastructure Supply and Deployment
+                  Infrastructure Supply and <br/>Deployment
                 </h3>
-                <IoIosArrowForward className="text-blue-500 text-5xl" />
+                <IoIosArrowForward className="text-blue-500  text-3xl " />
               </div>
               <p className="text-gray-700 mt-5 text-lg hover:text-blue-500">End to end service guaranteeing seamless integration and optimal performance of your technology Infrastructure</p>
             </div>
@@ -64,9 +64,9 @@ const Service = () => {
               <div className="flex items-center justify-between">
                 <h3 className="text-2xl text-violet-800 font-semibold mb-2 flex items-center">
                   <FaRegBuilding className="mr-3 text-4xl text-blue-500" />
-                  Information Technology Outsourcing (ITO)
+                  Information Technology <br/>Outsourcing (ITO)
                 </h3>
-                <IoIosArrowForward className="text-blue-500 text-5xl" />
+                <IoIosArrowForward className="text-blue-500 text-3xl" />
               </div>
               <p className="text-gray-700 mt-5 text-lg hover:text-blue-500">Softnet, your ultimate partner for outsourced services that redefine excellence. Dive into a realm where professionalism</p>
             </div>
