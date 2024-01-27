@@ -163,7 +163,7 @@ const Navbar = () => {
     id={`dropdownNavbar${index + 1}`}
     className={`${
       dropdownVisible === index + 1 ? 'block' : 'hidden'
-    } absolute mt-0 -ml-4 md:ml-0 z-10 font-normal bg-violet-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+    } absolute mt-0 -ml-4 md:ml-0 z-10 font-normal bg-violet-50 divide-x divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
   >
     <ul className="py-3 text-l text-gray-700 dark:text-gray-400">
       {item.dropdownItems.map((subItem, subIndex) => (
