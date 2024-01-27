@@ -53,7 +53,7 @@ function Hero() {
   const carouselConfig = {
     autoPlay: true,
     infinite: true,
-    interval: 3000, // Time between slides in milliseconds
+    interval: 2000, // Time between slides in milliseconds
     showArrows: false,
     showStatus: false,
     showThumbs: false,

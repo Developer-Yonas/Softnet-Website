@@ -8,7 +8,7 @@ import { FaRegBuilding } from 'react-icons/fa';
 const Service = () => {
   return (
     <div className="max-w-7xl mx-auto p-6 border rounded shadow-md">
-      <h2 className="text-4xl text-violet-900 font-semibold mb-10">Our Services</h2>
+      <h2 className="text-4xl text-violet-900 font-semibold mb-10"> Services</h2>
       <div className="flex flex-wrap -mx-4 cursor-pointer">
         <div className="w-full md:w-1/2 lg:w-1/2 px-4 mb-4">
           <Link to="/services/TechnologyTraining">
