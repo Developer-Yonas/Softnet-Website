@@ -80,12 +80,12 @@ function Hero() {
     <div>
     <Carousel {...carouselConfig}>
       {carouselItems.map((item, index) => (
-        <div key={index} style={{ position: "relative", overflow: "hidden", height: "30rem", marginBottom: "0px", marginTop:"0px", paddingBottom:"0px"  }}>
+        <div key={index} style={{ position: "relative", overflow: "hidden", height: "36rem", marginBottom: "0px", marginTop:"0px", paddingBottom:"0px"  }}>
         
-          <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 md:h-full   object-center object-contain" />
+          <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-96 sm:pl-0 md:h-full sm:h-96   object-center object-contain" />
           <div style={{ fontSize: 35, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.04)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", paddingBottom: "100px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
           <div className="relative left-10  sm:left-20 top-44  ">
-  <p className="mb-5 text-violet-900 md:text-4xl sm:text-xl pl-0 justify-between   ">{item.text}</p>
+  <p className="mb-5 text-violet-900 text-base md:text-4xl sm:text-4xl pl-0">{item.text}</p>  
   <a 
     href={item.portfolioLink}
     className="button-style hover:bg-blue-700 hover:border-blue-700 text-lg sm:text-lg hover:text-white"
