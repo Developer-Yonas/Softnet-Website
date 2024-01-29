@@ -94,7 +94,7 @@ function Hero() {
           <img src={item.imageSrc} alt={item.alt}  className="  w-full h-auto object-center" />
           <div style={{ fontSize: 25, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "rgba(0, 0, 0, 0.02)",  flexDirection: "column", justifyContent: "center", alignItems: "flex-start", marginBottom:"50px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
           <div className="relative left-5  sm:left-10 top-56  ">
-  <p className="mb-5 text-violet-900 ml-0 font-semibold md:text-5xl  sm:text-xl mt-0 pl-0">{item.text}</p>  
+  <p className="mb-5 text-violet-900 ml-0 font-semibold md:text-4xl  sm:text-xl mt-0 pl-0">{item.text}</p>  
   <a 
     href={item.portfolioLink}
     className="button-style hover:bg-blue-700 hover:border-blue-700 text-lg md:text-lg hover:text-white"
