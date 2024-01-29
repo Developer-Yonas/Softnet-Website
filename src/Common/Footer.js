@@ -34,7 +34,7 @@ export const Footer = () => {
                       <a href="" class="hover:underline">Email: info@softnetsc.com</a>
                       </li>
                       <li>
-                          <a href="" class="hover:underline">Phone: +251(9)77 51 04 51</a>
+                          <a href="" class="hover:underline">Phone:+251(9)77 51 04 51</a>
                       </li>
                   </ul>
               </div>
