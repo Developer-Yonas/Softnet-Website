@@ -49,7 +49,7 @@ const ClientSlider = () => {
           key={index}
           src={logo}
           alt={`Client Logo ${index + 1}`}
-          className="mx-2.5 pr-5"
+          className="mx-0  object-center"
           // Add additional styling as needed
         />
       ))}
