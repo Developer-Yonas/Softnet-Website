@@ -14,21 +14,21 @@ const Portfolio = () => {
   };
 
   return (
-    <div className='bg-gray-50'>
-      <h2 className="text-4xl text-violet-900 font-semibold mb-5 mt-8 ml-5"> Portfolio</h2>
-      <section className="text-gray-400 ml-3 mr-3 mb-10 bg-gray-900 body-font">
-        <div className="container px-5 py-24 mx-auto">
+    <div className='bg-gray-100 ml-8 mr-8'>
+      <h2 className="text-4xl text-violet-900 font-semibold mb-0 mt-8 ml-5"> Portfolio</h2>
+      <section className="text-gray-400 ml-3 mr-3 mb-0 bg-gray-100 body-font">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* Your other portfolio items... */}
 
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/tr.jpg')}>
-                  <img alt="ecommerce" className="transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/tr.jpg" />
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/tr.jpg" />
                 </a>
                 <div className="mt-4">
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">TECHNOLOGY TRAINING</h3>
-                  <h2 className="text-white title-font text-lg font-medium">Training Center</h2>
+                  <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">TECHNOLOGY TRAINING</h3>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Training Center</h2>
                 </div>
               </div>
             </div>
@@ -37,11 +37,11 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/infra.jpg')}>
-                  <img alt="ecommerce" className="transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/infra.jpg" />
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/infra.jpg" />
                 </a>
                 <div className="mt-4">
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">INFRASTRUCTURE</h3>
-                  <h2 className="text-white title-font text-lg font-medium">The </h2>
+                  <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFRASTRUCTURE</h3>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">The </h2>
                 </div>
               </div>
             </div>
@@ -49,11 +49,11 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a href='https://digitaltimeplc.com/' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/logoD.jpeg')}>
-                  <img alt="ecommerce" className="transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/logoD.jpeg" />
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/logoD.jpeg" />
                 </a>
                 <div className="mt-4">
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
-                  <h2 className="text-white title-font text-lg font-medium">DigitalTime Website</h2>
+                  <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">DigitalTime Website</h2>
                 </div>
               </div>
             </div>
@@ -61,11 +61,11 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/in.jpg')}>
-                  <img alt="ecommerce" className="transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/in.jpg" />
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/in.jpg" />
                 </a>
                 <div className="mt-4">
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">INFORMATION TECHNOLOGY OUTSOURCING</h3>
-                  <h2 className="text-white title-font text-lg font-medium">Outsourcing </h2>
+                  <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFORMATION TECHNOLOGY OUTSOURCING</h3>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Outsourcing </h2>
                 </div>
               </div>
             </div>
@@ -73,11 +73,11 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a href='https://www.softnetsc.com/#' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/sow.jpg')}>
-                  <img alt="ecommerce" className="transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/sow.jpg" />
+                  <img alt="ecommerce" className="border-2 border-violet-100  transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/sow.jpg" />
                 </a>
                 <div className="mt-4">
-                  <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
-                  <h2 className="text-white title-font text-lg font-medium">Softnet Solutions </h2>
+                  <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Softnet Solutions </h2>
                 </div>
               </div>
             </div>
