@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaTelegram, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaTwitter } from 'react-icons/fa'
 
 export const Footer = () => {
   return (
@@ -11,7 +11,7 @@ export const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="" class="flex items-center">
-                  <img src='/images/soft.png' class="h-8 me-3" alt="FlowBite Logo" />
+                  <img src='/images/soft.png' class="h-8 me-3" alt="Softnet Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
               </a>
           </div>
@@ -20,10 +20,10 @@ export const Footer = () => {
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Adress</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://flowbite.com/" class="hover:underline">Mexico , Shewa Bakery Bldg. 4th Floor </a>
+                          <a href="" class="hover:underline">Mexico , Shewa Bakery Bldg. 4th Floor </a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Addis Ababa , Ethiopia</a>
+                          <a href="" class="hover:underline">Addis Ababa , Ethiopia</a>
                       </li>
                   </ul>
               </div>
@@ -31,10 +31,10 @@ export const Footer = () => {
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                      <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Email: info@softnetsc.com</a>
+                      <a href="" class="hover:underline">Email: info@softnetsc.com</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Phone: +251(9)77 51 04 51</a>
+                          <a href="" class="hover:underline">Phone: +251(9)77 51 04 51</a>
                       </li>
                   </ul>
               </div>

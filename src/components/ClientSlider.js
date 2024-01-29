@@ -4,12 +4,18 @@ import "react-multi-carousel/lib/styles.css";
 
 const ClientSlider = () => {
   const clientLogos = [
-    "/images/4.jpg",
-    "/images/softt.png",
-    "/images/soft.png",
-    "/images/t.jpg",
-    "/images/cam.png",
-    "/images/client3.png",
+    "/images/logo/cl1.png",
+    "/images/logo/cl2.png",
+    "/images/logo/cl4.png",
+    "/images/logo/cl5.png",
+    "/images/logo/cl6.png",
+    "/images/logo/cl7.png",
+    "/images/logo/cl8.png",
+    "/images/logo/cl9.png",
+    "/images/logo/cl10.png",
+    "/images/logo/cl11.png",
+    "/images/logo/cl12.png",
+    "/images/logo/cl13.png",
     // Add more client logos as needed
   ];
 
@@ -23,7 +29,7 @@ const ClientSlider = () => {
     responsive: {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 4,
+        items: 5,
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },

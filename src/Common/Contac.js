@@ -24,7 +24,7 @@ const Contac = () => {
       <p className="flex mt-2 mb-0 hover:text-violet-700  text-blue-500 text-base sm:text-sm md:text-lg  md:mr-4 md:mb-0"><FaPhone /> :+251(0)15 57 86 57</p>
       <p className="flex mt-2 mb-0 hover:text-violet-700  text-blue-500 text-base sm:text-sm md:text-lg "><FaMapMarkerAlt />: Mexico , Shewa Bakery Bldg. 4th Floor - Infront of K Kare Center
 Addis Ababa , Ethiopia </p>
-      <div className="social-links flex mt-2 md:mt-0 space-x-4">
+      <div className="social-links flex mt-2 md:mt-0 space-x-2">
         <a href="https://www.facebook.com/example" className="social-icon hover:text-violet-700 text-blue-500 text-l text-xl"><FaFacebook /></a>
         <a href="https://www.twitter.com/example" className="social-icon hover:text-violet-700 text-grey-700 text-l text-xl"><FaTwitter /></a>
         <a href="https://www.telegram.com/example" className="social-icon hover:text-violet-700 text-blue-500 text-l text-xl"><FaTelegram /></a>
