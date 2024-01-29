@@ -23,8 +23,8 @@ const Portfolio = () => {
 
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/tr.jpg')}>
-                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/tr.jpg" />
+                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/t1.jpg')}>
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/t1.jpg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">TECHNOLOGY TRAINING</h3>
@@ -36,8 +36,8 @@ const Portfolio = () => {
             
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/infra.jpg')}>
-                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/infra.jpg" />
+                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/in.jpg')}>
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/in.jpg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFRASTRUCTURE</h3>
@@ -60,12 +60,12 @@ const Portfolio = () => {
 
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/in.jpg')}>
-                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/in.jpg" />
+                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/softt.png')}>
+                  <img alt="ecommerce" className="border-2 border-violet-100 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/softt.png" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFORMATION TECHNOLOGY OUTSOURCING</h3>
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Outsourcing </h2>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">IT Outsourcing </h2>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Softnet Solutions </h2>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Softnet Solutions Website</h2>
                 </div>
               </div>
             </div>
