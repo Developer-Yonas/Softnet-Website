@@ -3,11 +3,11 @@ import React from "react";
 function About() {
   return (
     <div className="bg-gray-50 mb-10 min-h-screen flex flex-col items-center justify-center">
-      <div className="max-w-6xl mx-auto p-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-4xl text-violet-800 font-bold mb-6">About Us</h1>
+      <div className="max-w-7xl mx-auto p-6 bg-white rounded-lg shadow-md">
+        <h1 className="text-4xl text-violet-800 font-semibold mb-6">About Us</h1>
          {/* Image Section */}
          <div className="mb-6">
-          <img src="/images/soft.png" alt="Company Office" className="w-auto pl-80 h-28 rounded-md " />
+          <img src="/images/soft.png" alt="Company Office" className="w-auto pl-96 h-28 rounded-md " />
         </div>
         <h2 className="text-2xl text-gray-500 font-bold mb-6">Softnet Solutions </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
