@@ -29,7 +29,7 @@ const ClientSlider = () => {
     responsive: {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 5,
+        items: 6,
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -49,7 +49,7 @@ const ClientSlider = () => {
           key={index}
           src={logo}
           alt={`Client Logo ${index + 1}`}
-          className="md:mx-20 sm:mx-0  object-center"
+          className="ml-10 md:mx-16 sm:mx-0  object-center"
           // Add additional styling as needed
         />
       ))}
