@@ -89,10 +89,10 @@ function Hero() {
 `}</style>
     <Carousel {...carouselConfig}>
       {carouselItems.map((item, index) => (
-        <div key={index} style={{ position: "relative", overflow: "hidden", height: "34rem", marginBottom: "30px", marginTop:"0px", paddingBottom:"0px"  }}>
+        <div key={index} style={{ position: "relative", overflow: "hidden", height: "33rem", marginBottom: "30px", marginTop:"0px", paddingBottom:"0px"  }}>
         
-          <img src={item.imageSrc} alt={item.alt}  className="  w-full  md:pl-0 sm:pl-0 md:h-full sm:h-auto  object-center" />
-          <div style={{ fontSize: 25, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.02)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", marginBottom:"50px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
+          <img src={item.imageSrc} alt={item.alt}  className="  w-full  md:pl-0 sm:pl-0 md:h-auto sm:h-auto  object-center" />
+          <div style={{ fontSize: 25, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "rgba(0, 0, 0, 0.02)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", marginBottom:"50px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
           <div className="relative left-5  sm:left-10 top-44  ">
   <p className="mb-5 text-violet-900 ml-0 font-semibold md:text-5xl  sm:text-2xl mt-0 pl-0">{item.text}</p>  
   <a 
