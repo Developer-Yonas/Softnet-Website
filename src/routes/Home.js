@@ -8,7 +8,7 @@ function Home() {
     <>
      <Hero/><br/>
      <Service/>
-     <Portfolio/>
+     {/* <Portfolio/> */}
      <Client/>
     </>
   );
