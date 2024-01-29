@@ -7,7 +7,7 @@ const ClientSlider = () => {
     "/images/4.jpg",
     "/images/softt.png",
     "/images/soft.png",
-    "/images/tr.jpg",
+    "/images/t.jpg",
     "/images/cam.png",
     "/images/client3.png",
     // Add more client logos as needed

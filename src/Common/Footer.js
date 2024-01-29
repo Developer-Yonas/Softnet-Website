@@ -63,13 +63,13 @@ export const Footer = () => {
                   <span class="sr-only">Facebook page</span>
               </a>
              
-              <a href="#" class="text-grey-500 hover:text-violet-900 dark:hover:text-white ms-5">
+              <a href="#" class="text-grey-500 hover:text-violet-900 dark:hover:text-white ms-2">
                   <svg class="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
                <FaTwitter/>
                 </svg>
                   <span class="sr-only">Twitter page</span>
               </a>
-              <a href="#" className="text-red-500 hover:text-violet-900 dark:hover:text-white ms-5">
+              <a href="#" className="text-red-500 hover:text-violet-900 dark:hover:text-white ">
           <svg className="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             {/* Instagram Icon */}
          <FaInstagram/>
@@ -77,7 +77,7 @@ export const Footer = () => {
           <span className="sr-only">Instagram account</span>
         </a>
 
-        <a href="#" className="text-blue-500 hover:text-violet-900 dark:hover:text-white ms-5">
+        <a href="#" className="text-blue-500 hover:text-violet-900 dark:hover:text-white ">
           <svg className="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             {/* Telegram Icon */}
           <FaTelegram/>
@@ -85,7 +85,7 @@ export const Footer = () => {
           <span className="sr-only">Telegram account</span>
         </a>
 
-        <a href="#" className="text-blue-600 hover:text-violet-900 dark:hover:text-white ms-5">
+        <a href="#" className="text-blue-600 hover:text-violet-900 dark:hover:text-white ">
           <svg className="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             {/* LinkedIn Icon */}
              <FaLinkedin/>
