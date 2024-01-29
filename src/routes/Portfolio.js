@@ -41,7 +41,7 @@ const Portfolio = () => {
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFRASTRUCTURE</h3>
-                  <h2 className="text-gray-900 title-font text-lg font-medium">The </h2>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Infrastructure </h2>
                 </div>
               </div>
             </div>
