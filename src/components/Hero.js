@@ -89,12 +89,12 @@ function Hero() {
 `}</style>
     <Carousel {...carouselConfig}>
       {carouselItems.map((item, index) => (
-        <div key={index} style={{ position: "relative", overflow: "hidden", height: "36rem", marginBottom: "0px", marginTop:"0px", paddingBottom:"0px"  }}>
+        <div key={index} style={{ position: "relative", overflow: "hidden", height: "34rem", marginBottom: "30px", marginTop:"0px", paddingBottom:"0px"  }}>
         
-          <img src={item.imageSrc} alt={item.alt}  className="  w-full md:pl-0 sm:pl-0 md:h-full sm:h-96   object-center object-contain" />
-          <div style={{ fontSize: 25, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.02)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", paddingBottom: "100px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
-          <div className="relative left-6  sm:left-10 top-44  ">
-  <p className="mb-5 text-violet-900 md:text-4xl sm:text-2xl mt-10 pl-0">{item.text}</p>  
+          <img src={item.imageSrc} alt={item.alt}  className="  w-full  md:pl-0 sm:pl-0 md:h-full sm:h-auto  object-center" />
+          <div style={{ fontSize: 25, fontWeight: "bold", position: "absolute", top: 0, left: 0, right: 0, bottom: 20, background: "rgba(0, 0, 0, 0.02)", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", marginBottom:"50px", mariginTop:"0px", marginLeft:"0px", color: "darkblue" }}>
+          <div className="relative left-5  sm:left-10 top-44  ">
+  <p className="mb-5 text-violet-900 ml-0 font-semibold md:text-5xl  sm:text-2xl mt-0 pl-0">{item.text}</p>  
   <a 
     href={item.portfolioLink}
     className="button-style hover:bg-blue-700 hover:border-blue-700 text-lg md:text-lg hover:text-white"
