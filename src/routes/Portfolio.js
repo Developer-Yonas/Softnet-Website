@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/t1.jpg')}>
-                  <img alt="Technology" className="border-1 border-r-8  border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/t1.jpg" />
+                  <img alt="Technology" className="border-1 rounded border-r-8  border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/t1.jpg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">TECHNOLOGY TRAINING</h3>
