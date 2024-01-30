@@ -17,30 +17,18 @@ const Infrastructure = () => {
 
   const slides = [
     {
-      image:'/images/cam.png',
+      image:'/images/softt.png',
       title: 'Web Development',
       description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
     },
-    {
-      image: '/images/cam.png',
-      title: 'App Development',
-      description: 'Explore the fundamentals of App development and gain insights, skills and experience.',
-    },
+    
     {
       image: '/images/cam.png',
       title: 'Robotics',
       description: 'Build your robotics experience here with our expert instructors.',
     },
-    {
-      image: '/images/cam.png',
-      title: 'Digital Art',
-      description: 'Build your digital art experience here with our expert instructors.',
-    },
-    {
-      image: '/images/cam.png',
-      title: 'Ethical Tech Mastry',
-      description: 'Build your ethical tech mastry experience here with our expert instructors.',
-    },
+    
+  
   ];
 
   return (
@@ -48,16 +36,15 @@ const Infrastructure = () => {
       {/* Header Section */}
       <header className="text-center mb-10">
         <h1 className="text-4xl font-semibold text-violet-900">Infrastructure </h1>
-        <p className="text-gray-600 mt-2">Learn the latest technologies with our expert instructors.</p>
+        <p className="text-gray-600 mt-2">Infrastructure supply and deployment</p>
       </header>
 
       {/* Main Content Section */}
       <main>
         <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">About Tech Training</h2>
+          <h2 className="text-2xl font-semibold mb-4">What we offer?</h2>
           <p className="text-gray-700">
-            Tech Training offers a variety of courses to help you gain expertise in different technologies.
-            Whether you are a beginner or an experienced professional, our courses are designed to meet your learning needs.
+            End-to-end services guaranteeing seamless integration and optimal performance of your technology infrastructure.
           </p>
         </section>
 

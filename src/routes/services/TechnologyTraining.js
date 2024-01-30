@@ -47,7 +47,7 @@ const TechnologyTraining = () => {
     <div className="max-w-7xl mx-auto p-6">
       {/* Header Section */}
       <header className="text-center mb-10">
-        <h1 className="text-4xl font-semibold text-violet-900">Technology Training </h1>
+        <h1 className="text-4xl font-semibold text-violet-900">Technology Trainings </h1>
         <p className="text-gray-600 mt-2">Learn the latest technologies with our expert instructors.</p>
       </header>
 
