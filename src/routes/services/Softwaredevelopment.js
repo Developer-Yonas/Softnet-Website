@@ -19,17 +19,17 @@ const Infrastructure = () => {
     {
       image:'/images/cam.png',
       title: 'Web Development',
-      description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
+      description: 'We process, build, and maintain websites or web applications while adhering to standard quality. ',
     },
     {
       image: '/images/cam.png',
       title: 'App Development',
-      description: 'Explore the fundamentals of App development and gain insights, skills and experience.',
+      description: 'We process and create software applications designed to run on specific platforms',
     },
     {
       image: '/images/cam.png',
       title: 'Customized Solutions',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'Client-specific products or services designed to meet individual needs and requirements.',
     },
    
   ];

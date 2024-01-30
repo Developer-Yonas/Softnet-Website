@@ -17,30 +17,30 @@ const Infrastructure = () => {
 
   const slides = [
     {
-      image:'/images/softt.png',
+      image:'/images/cam.png',
       title: 'Servers',
-      description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
+      description: ' Servers are specialized computers or software applications designed to provide services, resources, or functionalities to other computers, known as clients, within a network.',
     },
     
     {
       image: '/images/cam.png',
       title: 'Networking',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'Networking, in the context of information technology, refers to the practice of connecting computers and other devices to enable them to communicate and share resources.',
     },
     {
       image: '/images/cam.png',
       title: 'HCI(Hyper-Converged-Infrastructure)',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'HCI is an integrated IT infrastructure system that combines computing, storage, and networking resources in a single, software-defined solution. ',
     },
     {
       image: '/images/cam.png',
       title: 'Security Solutions',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'Security solutions encompass a wide range of tools, practices, and measures designed to protect  IT systems, networks, data, and users from various security threats and risks.',
     },
     {
       image: '/images/cam.png',
       title: 'Data Center Solutions',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'It refer to a set of integrated products and services designed to optimize the management, storage, processing, and networking of data within a centralized facility.',
     },    
   
   ];
@@ -81,7 +81,7 @@ const Infrastructure = () => {
               <img src={slide.image} alt={`Slide ${index + 1}`} className="md:ml-40 sm:ml-0  md:w-auto sm:w-full h-auto rounded shadow-md" />
               <div className="text-center mt-4">
                 <h2 className="text-2xl font-semibold mb-2">{slide.title}</h2>
-                <p className="text-gray-700">{slide.description}</p>
+                <p className=" text-gray-700 ">{slide.description}</p>
               </div>
             </div>
           ))}

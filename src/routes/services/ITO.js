@@ -19,27 +19,27 @@ const ITO = () => {
     {
       image:'/images/cam.png',
       title: 'Web Development',
-      description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
+      description: 'Custom website development to align with your business goals and branding.',
     },
     {
       image: '/images/cam.png',
       title: 'App Development',
-      description: 'Explore the fundamentals of App development and gain insights, skills and experience.',
+      description: 'Expertise in crafting custom mobile applications for any platforms.',
     },
     {
       image: '/images/cam.png',
       title: 'Data Encoding',
-      description: 'Build your robotics experience here with our expert instructors.',
+      description: 'Data encoding refers to the process of converting information or data from one format to another.',
     },
     {
       image: '/images/cam.png',
       title: 'Call center professionals',
-      description: 'Build your digital art experience here with our expert instructors.',
+      description: 'Customer service representatives or agents, are individuals employed in call centers to handle inbound and outbound calls from customers',
     },
     {
       image: '/images/cam.png',
       title: 'Graphics Design',
-      description: 'Build your ethical tech mastry experience here with our expert instructors.',
+      description: 'A creative discipline that involves the visual communication and presentation of ideas.',
     },
   ];
 
