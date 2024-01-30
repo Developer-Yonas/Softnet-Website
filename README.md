@@ -1,8 +1,6 @@
 # React-Softnet-Website
 
-Hi everyone, welcome to my new react js website .
-
-
+Hi everyone, welcome to Softnet Solutions js website .
 
 # Setup
 
@@ -11,3 +9,6 @@ Hi everyone, welcome to my new react js website .
 3. Drag and drop this project inside VS code.
 4. Open a terminal & run this command.
    run `npm i && npm start`
+5. install node_module
+6. install Tailwind CSS
+7. install react-carousel packages
