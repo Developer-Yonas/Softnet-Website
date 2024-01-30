@@ -1,4 +1,4 @@
-# React-Softnet-Website
+# Js-Softnet-Website
 
 Hi everyone, welcome to Softnet Solutions js website .
 
