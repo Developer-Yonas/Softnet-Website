@@ -17,27 +17,27 @@ const TechnologyTraining = () => {
 
   const slides = [
     {
-      image:'/images/cam.png',
+      image:'/images/Services/webd.jpg',
       title: 'Web Development',
       description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/appd.jpg',
       title: 'App Development',
       description: 'Explore the fundamentals of App development and gain insights, skills and experience.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/robod.jpg',
       title: 'Robotics',
       description: 'Build your robotics experience here with our expert instructors.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/digd.jpg',
       title: 'Digital Art',
       description: 'Build your digital art experience here with our expert instructors.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/bud.jpg',
       title: 'Ethical Tech Mastry',
       description: 'Build your ethical tech mastry experience here with our expert instructors.',
     },
@@ -77,7 +77,7 @@ const TechnologyTraining = () => {
         <Slider {...sliderSettings} className="mb-6">
           {slides.map((slide, index) => (
             <div key={index}>
-              <img src={slide.image} alt={`Slide ${index + 1}`} className="md:ml-40 sm:ml-0  md:w-auto sm:w-full h-auto rounded shadow-md" />
+              <img src={slide.image} alt={`Slide ${index + 1}`} className="md:ml-80 sm:ml-0  md:w-auto sm:w-full sm:h-auto md:h-96 rounded shadow-md" />
               <div className="text-center mt-4">
                 <h2 className="text-2xl font-semibold mb-2">{slide.title}</h2>
                 <p className="text-gray-700">{slide.description}</p>
