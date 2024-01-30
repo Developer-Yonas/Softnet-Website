@@ -15,7 +15,7 @@ const Portfolio = () => {
 
   return (
     <div className=' mb-10 ml-5 mr-5'>
-      <h2 className="text-4xl text-violet-900 font-semibold mb-5 mt-10 ml-5"> Portfolio</h2>
+      <h2 className="text-4xl text-violet-900 font-semibold mb-5 mt-5 ml-5"> Portfolio</h2>
       <section className="text-gray-400 ml-3 mr-3 mb-0 bg-gray-100 body-font">
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">
@@ -72,8 +72,8 @@ const Portfolio = () => {
 
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a href='https://www.softnetsc.com/#' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/sow.jpg')}>
-                  <img alt="ecommerce" className="border-2 border-violet-100  transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/sow.jpg" />
+                <a href='https://www.softnetsc.com/#' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/sow.png')}>
+                  <img alt="ecommerce" className="border-2 border-violet-100  transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/sow.png" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>

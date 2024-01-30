@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <h1 className="text-4xl text-violet-900 font-semibold mb-0 mt-10 ml-11">Contact Us</h1>
+      <h1 className="text-4xl text-violet-900 font-semibold mb-0 mt-5 ml-11">Contact Us</h1>
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -15,7 +15,7 @@ function Contact() {
   marginWidth="0"
   scrolling="no"
   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15762.474299104671!2d38.7463865!3d9.0071998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85e1f44917bd%3A0x6005a0aec6bbd54c!2sSoftnet%20Solutions%E2%84%A2%20-%20Ethiopia%20(Headquarters)!5e0!3m2!1sen!2set!4v1706594951462!5m2!1sen!2set"
-  style={{ filter: "grayscale(0) contrast(1.3) opacity(0.5)" }}
+  style={{ filter: "grayscale(0) contrast(1.3) opacity(0.6)" }}
 ></iframe>
 
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
@@ -72,7 +72,7 @@ function Contact() {
             <button className="text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Submit
             </button>
-            <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+            <p className="text-s text-gray-500 ml-9 mt-3">Empowering community through technology !</p>
           </div>
         </div>
       </section>
