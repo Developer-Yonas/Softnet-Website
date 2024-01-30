@@ -17,12 +17,12 @@ const ITO = () => {
 
   const slides = [
     {
-      image:'/images/cam.png',
+      image:'/images/Services/webd.jpg',
       title: 'Web Development',
       description: 'Custom website development to align with your business goals and branding.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/appd.jpg',
       title: 'App Development',
       description: 'Expertise in crafting custom mobile applications for any platforms.',
     },
