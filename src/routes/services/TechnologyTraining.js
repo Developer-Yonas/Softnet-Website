@@ -54,9 +54,9 @@ const TechnologyTraining = () => {
       {/* Main Content Section */}
       <main>
         <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">About Tech Training</h2>
+          <h2 className="text-2xl font-semibold mb-4">What we offer?</h2>
           <p className="text-gray-700">
-            Tech Training offers a variety of courses to help you gain expertise in different technologies.
+            Tech Training offers a variety of courses to help you gain expertise in different technologies. From coding to web development, we offer specialized programs for all age groups, starting as young as 10 years old.
             Whether you are a beginner or an experienced professional, our courses are designed to meet your learning needs.
           </p>
         </section>

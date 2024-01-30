@@ -18,16 +18,30 @@ const Infrastructure = () => {
   const slides = [
     {
       image:'/images/softt.png',
-      title: 'Web Development',
+      title: 'Servers',
       description: 'Learn the latest web development technologies and frameworks in our intensive bootcamp.',
     },
     
     {
       image: '/images/cam.png',
-      title: 'Robotics',
+      title: 'Networking',
       description: 'Build your robotics experience here with our expert instructors.',
     },
-    
+    {
+      image: '/images/cam.png',
+      title: 'HCI(Hyper-Converged-Infrastructure)',
+      description: 'Build your robotics experience here with our expert instructors.',
+    },
+    {
+      image: '/images/cam.png',
+      title: 'Security Solutions',
+      description: 'Build your robotics experience here with our expert instructors.',
+    },
+    {
+      image: '/images/cam.png',
+      title: 'Data Center Solutions',
+      description: 'Build your robotics experience here with our expert instructors.',
+    },    
   
   ];
 

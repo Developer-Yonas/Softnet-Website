@@ -28,17 +28,17 @@ const ITO = () => {
     },
     {
       image: '/images/cam.png',
-      title: 'Robotics',
+      title: 'Data Encoding',
       description: 'Build your robotics experience here with our expert instructors.',
     },
     {
       image: '/images/cam.png',
-      title: 'Digital Art',
+      title: 'Call center professionals',
       description: 'Build your digital art experience here with our expert instructors.',
     },
     {
       image: '/images/cam.png',
-      title: 'Ethical Tech Mastry',
+      title: 'Graphics Design',
       description: 'Build your ethical tech mastry experience here with our expert instructors.',
     },
   ];
@@ -48,16 +48,15 @@ const ITO = () => {
       {/* Header Section */}
       <header className="text-center mb-10">
         <h1 className="text-4xl font-semibold text-violet-900">Information Technology Outsourcing (ITO) </h1>
-        <p className="text-gray-600 mt-2">Learn the latest technologies with our expert instructors.</p>
+        <p className="text-gray-600 mt-2">Outsourcing</p>
       </header>
 
       {/* Main Content Section */}
       <main>
         <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">About Tech Training</h2>
+          <h2 className="text-2xl font-semibold mb-4">What we do?</h2>
           <p className="text-gray-700">
-            Tech Training offers a variety of courses to help you gain expertise in different technologies.
-            Whether you are a beginner or an experienced professional, our courses are designed to meet your learning needs.
+            Softnet, your ultimate partner for outsourced services that redefine excellence. Dive into a realm where professionalism.
           </p>
         </section>
 
