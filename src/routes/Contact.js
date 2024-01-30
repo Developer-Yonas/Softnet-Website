@@ -1,8 +1,10 @@
 function Contact() {
   return (
     <>
-      <h1 className="text-4xl text-violet-900 font-semibold mb-0 mt-5 ml-11">Contact Us</h1>
+    <div className="bg-gray-50 pt-5">
+      
       <section className="text-gray-600 body-font relative">
+      <h1 className="text-4xl text-violet-900 font-semibold  mb-0 ml-11">Contact Us</h1>
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -76,6 +78,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 }

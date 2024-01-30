@@ -19,23 +19,23 @@ const Infrastructure = () => {
     {
       image:'/images/cam.png',
       title: 'Servers',
-      description: ' Servers are specialized computers or software applications designed to provide services, resources, or functionalities to other computers, known as clients, within a network.',
+      description: ' Specialized computers or software applications designed to provide services, resources, or functionalities to other computers, known as clients, within a network.',
     },
     
     {
       image: '/images/cam.png',
       title: 'Networking',
-      description: 'Networking, in the context of information technology, refers to the practice of connecting computers and other devices to enable them to communicate and share resources.',
+      description: 'Networking, refers to the practice of connecting computers and other devices to enable them to communicate and share resources.',
     },
     {
       image: '/images/cam.png',
       title: 'HCI(Hyper-Converged-Infrastructure)',
-      description: 'HCI is an integrated IT infrastructure system that combines computing, storage, and networking resources in a single, software-defined solution. ',
+      description: ' An integrated IT infrastructure system that combines computing, storage, and networking resources in a single, software-defined solution. ',
     },
     {
       image: '/images/cam.png',
       title: 'Security Solutions',
-      description: 'Security solutions encompass a wide range of tools, practices, and measures designed to protect  IT systems, networks, data, and users from various security threats and risks.',
+      description: 'Encompass a wide range of tools, practices, and measures designed to protect  IT systems, networks, data, and users from various security threats and risks.',
     },
     {
       image: '/images/cam.png',
