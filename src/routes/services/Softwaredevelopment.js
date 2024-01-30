@@ -67,7 +67,7 @@ const Infrastructure = () => {
         <Slider {...sliderSettings} className="mb-6">
           {slides.map((slide, index) => (
             <div key={index}>
-              <img src={slide.image} alt={`Slide ${index + 1}`} className="md:ml-40 sm:ml-0  md:w-auto sm:w-full h-auto rounded shadow-md" />
+              <img src={slide.image} alt={`Slide ${index + 1}`} className="md:ml-80 sm:ml-0  md:w-auto sm:w-full sm:h-auto md:h-96 rounded shadow-md" />
               <div className="text-center mt-4">
                 <h2 className="text-2xl font-semibold mb-2">{slide.title}</h2>
                 <p className="text-gray-700">{slide.description}</p>
