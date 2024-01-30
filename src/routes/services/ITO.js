@@ -48,7 +48,7 @@ const ITO = () => {
       {/* Header Section */}
       <header className="text-center mb-10">
         <h1 className="text-4xl font-semibold text-violet-900">Information Technology Outsourcing (ITO) </h1>
-        <p className="text-gray-600 mt-2">Outsourcing</p>
+        <p className="text-gray-600 mt-2">Software Development Outsourcing</p>
       </header>
 
       {/* Main Content Section */}

@@ -5,7 +5,7 @@ function Contact() {
       
       <section className="text-gray-600 body-font relative">
       <h1 className="text-4xl text-violet-900 font-semibold  mb-0 ml-11">Contact Us</h1>
-        <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="container px-5 py-6  mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
   width="100%"
@@ -20,7 +20,7 @@ function Contact() {
   style={{ filter: "grayscale(0) contrast(1.3) opacity(0.6)" }}
 ></iframe>
 
-            <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="bg-white relative mt-96 flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
                 <p className="mt-1">Mexico , Shewa Bakery Bldg. 4th Floor
