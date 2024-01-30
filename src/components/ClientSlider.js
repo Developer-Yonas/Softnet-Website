@@ -22,7 +22,7 @@ const ClientSlider = () => {
   const carouselConfig = {
     autoPlay: true,
     infinite: true,
-    interval: 10,
+    interval: 1000,
     showArrows: false,
     showStatus: false,
     showThumbs: false,
