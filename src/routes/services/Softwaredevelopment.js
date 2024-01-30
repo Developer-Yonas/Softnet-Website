@@ -17,17 +17,17 @@ const Infrastructure = () => {
 
   const slides = [
     {
-      image:'/images/cam.png',
+      image:'/images/Services/webd.jpg',
       title: 'Web Development',
       description: 'We process, build, and maintain websites or web applications while adhering to standard quality. ',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/appd.jpg',
       title: 'App Development',
       description: 'We process and create software applications designed to run on specific platforms',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/cusd.jpg',
       title: 'Customized Solutions',
       description: 'Client-specific products or services designed to meet individual needs and requirements.',
     },
