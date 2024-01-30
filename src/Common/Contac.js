@@ -28,7 +28,7 @@ Addis Ababa , Ethiopia </p>
         <a href="https://www.facebook.com/example" className="social-icon hover:text-violet-700 text-blue-500 text-l text-xl"><FaFacebook /></a>
         <a href="https://www.twitter.com/example" className="social-icon hover:text-violet-700 text-grey-700 text-l text-xl"><FaTwitter /></a>
         <a href="https://www.telegram.com/example" className="social-icon hover:text-violet-700 text-blue-500 text-l text-xl"><FaTelegram /></a>
-        <a href="https://www.telegram.com/example" className="social-icon hover:text-violet-700 text-blue-600 text-l text-xl"><FaLinkedin /></a>
+        <a href="https://www.linkedin.com/company/softnet-sc/mycompany/" className="social-icon hover:text-violet-700 text-blue-600 text-l text-xl"><FaLinkedin /></a>
         <a href="https://www.telegram.com/example" className="social-icon hover:text-violet-700 text-red-500 text-l text-xl"><FaInstagram /></a>
       </div>
     </div>

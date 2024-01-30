@@ -14,8 +14,8 @@ const Portfolio = () => {
   };
 
   return (
-    <div className='bg-gray-100 mb-10 ml-5 mr-5'>
-      <h2 className="text-4xl text-violet-900 font-semibold mb-0 mt-8 ml-5"> Portfolio</h2>
+    <div className=' mb-10 ml-5 mr-5'>
+      <h2 className="text-4xl text-violet-900 font-semibold mb-5 mt-10 ml-5"> Portfolio</h2>
       <section className="text-gray-400 ml-3 mr-3 mb-0 bg-gray-100 body-font">
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">

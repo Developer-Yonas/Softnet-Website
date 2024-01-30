@@ -85,7 +85,7 @@ export const Footer = () => {
           <span className="sr-only">Telegram account</span>
         </a>
 
-        <a href="#" className="text-blue-600 hover:text-violet-900 dark:hover:text-white ">
+        <a href="https://www.linkedin.com/company/softnet-sc/mycompany/" className="text-blue-600 hover:text-violet-900 dark:hover:text-white ">
           <svg className="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             {/* LinkedIn Icon */}
              <FaLinkedin/>
