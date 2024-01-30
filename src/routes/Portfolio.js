@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/t1.jpg')}>
-                  <img alt="Technology" className="border-1 rounded border-r-8  border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/t1.jpg" />
+                  <img alt="Technology" className="border-1 rounded border-r-8  border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer  object-center w-full h-full block" src="/images/t1.jpg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">TECHNOLOGY TRAINING</h3>
@@ -36,12 +36,12 @@ const Portfolio = () => {
             
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/in.jpg')}>
-                  <img alt="Infrastructure" className="border-1 border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/in.jpg" />
+                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/ini.jpeg')}>
+                  <img alt="Infrastructure" className="border-1 border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer  object-center w-full h-full block" src="/images/ini.jpeg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFRASTRUCTURE</h3>
-                  <h2 className="text-gray-900 title-font text-lg font-medium">Infrastructure </h2>
+                  <h2 className="text-gray-900 title-font text-lg font-medium">Infrastructure Supply and Deployment</h2>
                 </div>
               </div>
             </div>
@@ -49,8 +49,8 @@ const Portfolio = () => {
 
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/softt.png')}>
-                  <img alt="Outsourcing" className="border-1  border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/softt.png" />
+                <a className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/outi.jpg')}>
+                  <img alt="Outsourcing" className="border-1  border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/outi.jpg" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">INFORMATION TECHNOLOGY OUTSOURCING</h3>
@@ -63,7 +63,7 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a href='https://digitaltimeplc.com/' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/logoD.png')}>
-                  <img alt="Software development" className="border-1 border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/logoD.png" />
+                  <img alt="Software development" className="border-1 border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-center w-full h-full block" src="/images/logoD.png" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
@@ -75,7 +75,7 @@ const Portfolio = () => {
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
                 <a href='https://www.softnetsc.com/#' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/sow.png')}>
-                  <img alt="Software development" className="border-1 border-r-8 border-violet-200  transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-cover object-center w-full h-full block" src="/images/sow.png" />
+                  <img alt="Software development" className="border-1 border-r-8 border-violet-200  transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer  object-center w-full h-full block" src="/images/sow.png" />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-800 text-xs tracking-widest title-font mb-1">SOFTWARE DEVELOPMENT</h3>
