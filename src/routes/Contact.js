@@ -74,7 +74,7 @@ function Contact() {
             <button className="text-white ml-10 mr-10 bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Submit
             </button>
-            <p className="text-s text-gray-500 ml-9 mt-3">Empowering community through technology !</p>
+            <p className="text-s text-gray-500 md:ml-9 sm:ml-0 mt-3">Empowering community through technology !</p>
           </div>
         </div>
       </section>

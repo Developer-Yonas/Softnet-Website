@@ -29,12 +29,12 @@ export const Footer = () => {
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact us</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
+                  <ul class="text-gray-500 dark:text-gray-400  font-medium">
+                      <li class="mb-4 ">
                       <a href="" class="hover:underline">Email: info@softnetsc.com</a>
                       </li>
                       <li>
-                          <a href="" class="hover:underline">Phone:+251(9)77 51 04 51</a>
+                          <a href="" class="hover:underline">Phone: +251(9)77510451</a>
                       </li>
                   </ul>
               </div>
