@@ -38,7 +38,7 @@ const Infrastructure = () => {
       description: 'Encompass a wide range of tools, practices, and measures designed to protect  IT systems, networks, data, and users from various security threats and risks.',
     },
     {
-      image: '/images/Services/.jpg',
+      image: '/images/Services/dcc.jpg',
       title: 'Data Center Solutions',
       description: 'It refer to a set of integrated products and services designed to optimize the management, storage, processing, and networking of data within a centralized facility.',
     },    
