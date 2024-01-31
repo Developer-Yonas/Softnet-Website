@@ -17,28 +17,28 @@ const Infrastructure = () => {
 
   const slides = [
     {
-      image:'/images/cam.png',
+      image:'/images/Services/datac.jpg',
       title: 'Servers',
       description: ' Specialized computers or software applications designed to provide services, resources, or functionalities to other computers, known as clients, within a network.',
     },
     
     {
-      image: '/images/cam.png',
+      image: '/images/Services/netc.jpg',
       title: 'Networking',
       description: 'Networking, refers to the practice of connecting computers and other devices to enable them to communicate and share resources.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/hcic.jpg',
       title: 'HCI(Hyper-Converged-Infrastructure)',
       description: ' An integrated IT infrastructure system that combines computing, storage, and networking resources in a single, software-defined solution. ',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/secc.jpg',
       title: 'Security Solutions',
       description: 'Encompass a wide range of tools, practices, and measures designed to protect  IT systems, networks, data, and users from various security threats and risks.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/.jpg',
       title: 'Data Center Solutions',
       description: 'It refer to a set of integrated products and services designed to optimize the management, storage, processing, and networking of data within a centralized facility.',
     },    

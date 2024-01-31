@@ -27,17 +27,17 @@ const ITO = () => {
       description: 'Expertise in crafting custom mobile applications for any platforms.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/datao.jpg',
       title: 'Data Encoding',
       description: 'Data encoding refers to the process of converting information or data from one format to another.',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/callo.jpg',
       title: 'Call center professionals',
       description: 'Customer service representatives or agents, are individuals employed in call centers to handle inbound and outbound calls from customers',
     },
     {
-      image: '/images/cam.png',
+      image: '/images/Services/graphico.jpg',
       title: 'Graphics Design',
       description: 'A creative discipline that involves the visual communication and presentation of ideas.',
     },
