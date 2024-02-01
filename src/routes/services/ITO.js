@@ -54,7 +54,7 @@ const ITO = () => {
       {/* Main Content Section */}
       <main>
         <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">What we do?</h2>
+          <h2 className="text-2xl font-semibold mb-4">What we offer?</h2>
           <p className="text-gray-700">
             Softnet, your ultimate partner for outsourced services that redefine excellence. Dive into a realm where professionalism.
           </p>
