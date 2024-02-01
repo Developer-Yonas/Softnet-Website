@@ -45,7 +45,7 @@ const Infrastructure = () => {
       {/* Main Content Section */}
       <main>
         <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">What we do?</h2>
+          <h2 className="text-2xl font-semibold mb-4">What we offer?</h2>
           <p className="text-gray-700">
             We craft scalable, secure, and user-friendly software applications to enhance productivity and streamline your business processes.
           </p>
