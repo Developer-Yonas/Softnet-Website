@@ -50,6 +50,13 @@ const TechnologyTraining = () => {
         <h1 className="text-4xl font-semibold text-violet-900">Technology Trainings </h1>
         <p className="text-gray-600 mt-2">Learn the latest technologies with our expert instructors.</p>
       </header>
+      <a target="_blank"
+    href="https://hulenta.com/public/index.php/register"
+    className="button-style ml-60 hover:bg-violet-700 hover:border-violet-700 text-lg text-white hover:text-black"
+    style={{ textDecoration: "none", marginTop: "0px", border: "2px solid white",backgroundColor:"darkviolet", borderRadius: "10px", padding: "8px" }}
+  >
+    Register
+  </a>
 
       {/* Main Content Section */}
       <main>

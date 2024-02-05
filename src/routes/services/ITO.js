@@ -60,17 +60,7 @@ const ITO = () => {
           </p>
         </section>
 
-        {/* Upcoming Courses Section
-        <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Courses</h2>
-          <ul className="list-disc list-inside text-gray-700">
-            <li>Web Development </li>
-            <li>App Development</li>
-            <li>Robotics</li>
-            <li>Digital Art</li>
-            <li>Ethical tech Mastry</li>
-          </ul>
-        </section> */}
+       
 
         {/* Slider Section */}
         <Slider {...sliderSettings} className="mb-6">

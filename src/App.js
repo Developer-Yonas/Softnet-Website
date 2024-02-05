@@ -21,7 +21,7 @@ import Terms from "./Common/Terms";
 export default function App() {
   return (
     <div className="App">
-      {/* Pass the MenuItems array as a prop to the Navbar component */}
+      
       <Navbar menuItems={MenuItems} />
       <Routes>
         <Route path="/" element={<Home />} />

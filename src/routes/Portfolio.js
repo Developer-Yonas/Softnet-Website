@@ -62,7 +62,7 @@ const Portfolio = () => {
  
             <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
               <div className="relative">
-                <a href='https://digitaltimeplc.com/' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/logoD.png')}>
+                <a target="_blank" href='https://digitaltimeplc.com/' className="block h-64 rounded overflow-hidden" onClick={() => openImage('/images/logoD.png')}>
                   <img alt="Software development" className="border-1 border-r-8 border-violet-200 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer object-center w-full h-full block" src="/images/logoD.png" />
                 </a>
                 <div className="mt-4">

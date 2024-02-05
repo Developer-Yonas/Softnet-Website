@@ -44,8 +44,8 @@ function Hero() {
       ),
       portfolioLink: "/portfolio",
       contactLink: "/contact",
-    }
-    ,
+      registerLink: "https://hulenta.com/public/index.php/register",
+    },
     // Add more items as needed
   ];
 
@@ -108,7 +108,15 @@ function Hero() {
     style={{ textDecoration: "none", marginTop: "10px", border: "2px solid red", borderRadius: "10px", padding: "8px" }}
   >
     Contact
-  </a>
+  </a> <br/><br/>
+  
+ {/* Conditionally render the "Register" button */}
+ {index === 2 && (
+              <a  target="_blank"  href="https://hulenta.com/public/index.php/register" className="button-style ml-60 hover:bg-violet-700 hover:border-violet-700 text-lg text-white hover:text-black" style={{ textDecoration: "none", marginTop: "0px", border: "2px solid white", backgroundColor: "darkviolet", borderRadius: "10px", padding: "8px" }}>
+                Register
+              </a>
+            )}
+
 </div>
 
 

@@ -39,7 +39,7 @@ const Infrastructure = () => {
       {/* Header Section */}
       <header className="text-center mb-10">
         <h1 className="text-4xl font-semibold text-violet-900">Software Development </h1>
-        <p className="text-gray-600 mt-2">Solving complex problems, effortlessly .</p>
+        <p className="text-gray-600 mt-2">Solving complex problems, effortlessly </p>
       </header>
 
       {/* Main Content Section */}
@@ -51,17 +51,7 @@ const Infrastructure = () => {
           </p>
         </section>
 
-        {/* Upcoming Courses Section
-        <section className="bg-white p-6 rounded shadow-md mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Courses</h2>
-          <ul className="list-disc list-inside text-gray-700">
-            <li>Web Development </li>
-            <li>App Development</li>
-            <li>Robotics</li>
-            <li>Digital Art</li>
-            <li>Ethical tech Mastry</li>
-          </ul>
-        </section> */}
+       
 
         {/* Slider Section */}
         <Slider {...sliderSettings} className="mb-6">

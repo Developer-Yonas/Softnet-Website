@@ -1,4 +1,7 @@
 function Contact() {
+  const handleButtonClick = () => {
+    window.location.href = 'mailto:info@softnetsc.com';
+  };
   return (
     <>
     <div className="bg-gray-50 pt-5">
@@ -28,7 +31,7 @@ function Contact() {
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                <a href="mailto:example@email.com" className="text-purple-500 leading-relaxed">
+                <a href="mailto:info@softnetsc.com" className="text-purple-500 leading-relaxed">
                 info@softnetsc.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
@@ -71,7 +74,7 @@ function Contact() {
                 className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white ml-10 mr-10 bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+            <button  onClick={handleButtonClick} className="text-white ml-10 mr-10 bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Submit
             </button>
             <p className="text-s text-gray-500 md:ml-9 sm:ml-0 mt-3">Empowering community through technology !</p>
